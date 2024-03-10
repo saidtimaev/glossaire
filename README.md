@@ -13,12 +13,12 @@
 - [English](#english)
 
 ## Général
-1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
+1.	<b>Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte</b>
 
     L’environnement à installer pour exécuter un script PHP est un serveur local apache (par exemple
     MAMP ou Laragon) .
 
-2.	Qu’est-ce qu’un algorithme ?  
+2.	<b>Qu’est-ce qu’un algorithme ? </b> 
 
     Un algorithme est une suite d’opérations qui permet d’arriver à un resultat
 
