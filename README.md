@@ -27,12 +27,29 @@
     Une variable est une donnée dans PHP dont la valeur change, son préfixe est le signe $
 
 4.	<b>Qu’est-ce que la portée d’une variable ?</b>
-5.	<b>Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?</b>
 
-    Une constante est une donnée qui ne changera pas
+    La portée d'une variable c'est la partie du script à partir de laquelle elle peut être utilisée/ référencée
+  	
+6.	<b>Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?</b>
 
-6.	<b>Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation </b>
-7.	<b>Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)</b>
+    Une constante est une donnée qui ne changera pas durant l'exécution du programme, la variable quand à elle peut changer de valeur
+
+7.	<b>Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation </b>
+
+    Il en existe 9 :
+  	- $GLOBALS
+    - $_SERVER
+    - $_REQUEST
+    - $_POST
+    - $_GET
+    - $_FILES
+    - $_ENV
+    - $_COOKIE
+    - $_SESSION
+
+    Exemple : la superglobale $_POST qui permet de récupérer les données envoyées par une requête dont la méthode est POST
+  	
+9.	<b>Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)</b>
 
     int -> 9
     float -> 0.9
@@ -40,11 +57,11 @@
     bool -> true
     null -> n’a pas de valeur
 
-8.	<b>Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?</b>
+10.	<b>Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?</b>
 
     Oui, des tableaux indexés, tableaux associatifs et tableaux multidimensionnels
 
-9.	<b>Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles</b>
+11.	<b>Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles</b>
 
     La séquence :
         Début algo
@@ -66,31 +83,31 @@
         Action 1 ;
         Fin algo
 
-10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+12.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
 
     strlen()
 
-11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
-12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+13.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
+14.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
 
     Un cookie permet d’enregister des données sur un client et de les utiliser. 
     Un exemple serait de récupérer une session d’utilisateur.
 
-13.	Quelle est la différence entre les instructions « require » et « include » en PHP
+15.	Quelle est la différence entre les instructions « require » et « include » en PHP
 
     La différence est que include n’arrêtera pas l’exécution du code si le fichier est n’existe pas alors que require le fera
 
-14.	Comment effectuer une redirection en PHP ?
+16.	Comment effectuer une redirection en PHP ?
 
-15.	Définir la partie « front-end » et « back-end » d’une application
+17.	Définir la partie « front-end » et « back-end » d’une application
 
     Le front-end est ce que voit l’utilisateur et avec quoi il interagit, le back-end ce sont les fonctionnalités de l’application
 
-16.	Définir le contrôle de version ? Qu’est-ce que Git ?
+18.	Définir le contrôle de version ? Qu’est-ce que Git ?
 
     Le contrôle de version permet d’avoir plusieurs sauvegardes de son projet à ses différentes étapes d’avancement
 
-17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+19.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
 ## Front-end
 18.	Définir HTML
