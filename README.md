@@ -358,7 +358,7 @@ b.	MySQL
 
 c.	SGBD (donner 2 exemples de SGBD)
 
-    Système de gestion de base de données (MySQL, Oracle)
+    Système de gestion de base de données (MySQL, Oracle Database)
 
 75.	Dans une base de données, les données sont stockées dans des ___. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___
 
