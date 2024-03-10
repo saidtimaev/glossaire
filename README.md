@@ -32,7 +32,7 @@
     Une constante est une donnée qui ne changera pas
 
 6.	<b>Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation </b>
-7.	<b>Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)<b>
+7.	<b>Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)</b>
 
     int -> 9
     float -> 0.9
