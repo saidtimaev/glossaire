@@ -83,80 +83,94 @@
         Action 1 ;
         Fin algo
 
-12.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+12.	<b>Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?</b>
 
     strlen()
 
-13.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
-14.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+13.	<b>Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP</b>
+
+    Une session est un moyen de stocker des informations dans des variables pour qu'elles puissent ensuite être utilisées sur différentes pages
+
+    Exemple d'application : Enregister des informations (nom d'utilisateur, couleur favorite, etc...) sur un utilisateur pour qu'elles puissent ensuite être utilisées sur différentes pages
+
+14.	<b>Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP</b>
 
     Un cookie permet d’enregister des données sur un client et de les utiliser. 
     Un exemple serait de récupérer une session d’utilisateur.
 
-15.	Quelle est la différence entre les instructions « require » et « include » en PHP
+15.	<b>Quelle est la différence entre les instructions « require » et « include » en PHP</b>
 
     La différence est que include n’arrêtera pas l’exécution du code si le fichier est n’existe pas alors que require le fera
 
-16.	Comment effectuer une redirection en PHP ?
+16.	<b>Comment effectuer une redirection en PHP ?</b>
 
-17.	Définir la partie « front-end » et « back-end » d’une application
+    Avec la fonction header();
+
+    Exemple : header('Location: http://www.exemple.com/');
+
+17.	<b>Définir la partie « front-end » et « back-end » d’une application</b>
 
     Le front-end est ce que voit l’utilisateur et avec quoi il interagit, le back-end ce sont les fonctionnalités de l’application
 
-18.	Définir le contrôle de version ? Qu’est-ce que Git ?
+18.	<b>Définir le contrôle de version ? Qu’est-ce que Git ?</b>
 
     Le contrôle de version permet d’avoir plusieurs sauvegardes de son projet à ses différentes étapes d’avancement
 
-19.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+19.	<b>Qu’est-ce qu’un CMS ? Citer au moins 2 exemples</b>
+
+    Un CMS, Content Management System ou Système de gestion de contenu est un système qui permet de créer ou de mettre a jour un site internet 
+    sans avoir besoin de toucher au code source
+
+    Exemples : WordPress, Drupal
 
 ## Front-end
-18.	Définir HTML
+18.	<b>Définir HTML</b>
 
     HTML signifie HyperText Marqup Language
     Le html sert à structurer une page web
 
-19.	Définir CSS
+19.	<b>Définir CSS</b>
 
     CSS signifie Cascading Style Sheets et permet de mettre en forme une page web
 
-20.	Définir Javascript
+20.	<b>Définir Javascript</b>
 
     Javascript est un langage qui permet de programmer en back-end et front end, en front il permet de modifier les éléments du DOM de la page HTML
 
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
-23.	Qu’est-ce qu’un sélecteur CSS ?
+23.	<b>Qu’est-ce qu’un sélecteur CSS ?</b>
 
     Un sélecteur CSS permet de cibler les éléments d’une page HTML sur laquelle les styles CSS seront appliqués
 
-24.	Quelle balise HTML permet de créer un lien hypertexte ?
+24.	<b>Quelle balise HTML permet de créer un lien hypertexte ?</b>
 
     <a>
 
 25.	Qu’est-ce qu’une requête AJAX ?
-26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
+26.	<b>Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?</b>
 
     Le selectionneur CSS qui permet de séléctionner tous les éléments d’une classe spécifique est le “.”
     Le selectionneur CSS qui permet de séléctionner un identifiant spécifique est le “#”
 
-27.	Définir le responsive design
+27.	<b>Définir le responsive design</b>
 
     Le responsive design est la manière dont la page web sera présentée selon la taille de la page
 
 28.	Qu’est-ce que le templating ?
-29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
+29.	<b>Qu’est-ce qu’une fonction anonyme en Javascript ?</b>
 
     Une fonction qui n’a pas de nom
 
-30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+30.	<b>Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?</b>
 
     ‘nom du tableau’.push()
 
-31.	Qu’est-ce qu’un « media query » ?
+31.	<b>Qu’est-ce qu’un « media query » ?</b>
 
     Les media queries sont des règles qui indiquent quand on doit appliquer des propriétés CSS, en fonction de la taille de l'écran sur lequel s'affiche le site web
 
-32.	Qu’est-ce qu’un pseudo élément en CSS ?
+32.	<b>Qu’est-ce qu’un pseudo élément en CSS ?</b>
 
     Un pseudo-élément est un mot-clé ajouté à un sélecteur qui permet de mettre en forme certaines parties de l'élément ciblé par la règle.
 
@@ -167,8 +181,13 @@
     text-transform: uppercase;
 }
 
-33.	Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
-34.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
+33.	<b>Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent</b>
+
+    C'est un framework front-end 
+
+    Exemples : Tailwind, React
+
+34.	<b>Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes</b>
 
     GET et POST
 
@@ -178,9 +197,18 @@
 
 
 ## UX UI
-35.	Quelle est la différence entre UX Design et UI Design ?
-36.	Qu’est-ce qu’un wireframe ? 
-37.	Qu’est-ce qu’un prototype ? 
+35.	<b>Quelle est la différence entre UX Design et UI Design ?</b>
+
+    L'UX Design désigne l'intéraction de l'utilisateur avec l'interface d'un page web alors que l'UI Design désigne l'optimisation d'éléments graphiques d'une interface
+
+36.	<b>Qu’est-ce qu’un wireframe ? </b>
+
+    C'est le schéma d'une interface utilisateur avec un graphisme simplifié
+
+37.	<b>Qu’est-ce qu’un prototype ? </b>
+
+    C'est la répresentation la plus proche du produit final
+
 38.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
 39.	Qu’est-ce que l’accessibilité en UX Design ? 
 40.	Qu’est-ce qu’une grille de mise en page ?
@@ -189,76 +217,115 @@
 
 ## IV. Programmation orientée objet (POO)
 
-43.	Donner une définition de la programmation orientée objet 
+43.	<b>Donner une définition de la programmation orientée objet </b>
 
     C’est un modèle de langage de programmation qui s’articule autour d’objets et de données
 
-44.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
+44.	<b>Qu’est-ce qu’une classe ? Comment la déclare-t-on ?</b>
 
     Une classe est un template pour un objet, lorsque l’objet sera crée il aura comme propriétés les propriétés de la classe à partir de laquelle il a été crée
 
-45.	Qu’est-ce qu’un objet ?
+45.	<b>Qu’est-ce qu’un objet ?</b>
 
     C’est l’instance d’une classe
 
-46.	Définir la notion de propriété / attribut / méthode
+46.	<b>Définir la notion de propriété / attribut / méthode</b>
 
     Une propriété c’est les différentes caractéristiques que va avoir une classe
 
     Une méthode permet d’effectuer des opérations avec ses propriétés
 
-47.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
+47.	<b>Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité</b>
 
     La visibilité d’une propriété ou d’une méthode c’est à partir de quel endroit dans le programme elles peuvent être appelées ou modifiées.
     Les differents types de visibilité sont public, private et protected.
 
-48.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
+48.	<b>Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?</b>
 
     La méthode magique __construct($parametre1, …)
 
-49.	Qu’est-ce que l’encapsulation ?
+49.	<b>Qu’est-ce que l’encapsulation ?</b>
 
     L’encapsulation permet lors de la création d’un objet de le stocker dans la propriété de type tableau d’un autre objet
 
-50.	Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
+50.	<b>Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple</b>
 
     Le concept mis en œuvre est celui de l’héritage. Pour exemple on pourrait dire que la classe VoitureElectrique hérite de la classe Voiture
 
-51.	Définir l’opérateur de résolution de portée
+51.	<b>Définir l’opérateur de résolution de portée</b>
 
     Il est représente par un double deux-points :: et il permet d’accéder une constante, une méthode ou propriété statique de la classe
 
-52.	Définir une méthode / propriété statique
-53.	Définir le polymorphisme en POO
-54.	Définir une méthode / classe abstraite ?
-55.	Définir le chaînage de méthodes
+52.	<b>Définir une méthode / propriété statique</b>
+
+    Une méthode statique est une méthode qui peut-être appelée directement d'une classe
+
+    Une propriété statique est une propriété qui peut-être appelée directement d'une classe
+
+53.	<b>Définir le polymorphisme en POO</b>
+
+    Le principe du polymorphisme permet à des classes d'implémenter la même méthode mais avec un comportement différent 
+
+54.	<b>Définir une méthode / classe abstraite ?</b>
+
+    Une classe abstraite est une classe qui contient au moins une méthode abstraite
+    Elle ne peut pas être instanciée
+    Une méthode abstraite est une méthode qui est définie dans une classe enfant
+
+55.	<b>Définir le chaînage de méthodes</b>
 
     Le chaînage de méthodes permet d’écrire plusieurs méthodes l’une à la suite de l’autre sur la même ligne
 
-56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
+56.	<b>Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »</b>
 
     La méthode __toString() permet de définir ce que l’on veut afficher lorsque on appelle la fonction echo() sur un objet
 
-57.	Qu’est-ce qu’un « autoload » ?
+    Exemple de méthodes magiques : __construct(), __get(), set(), __isset(), ...
+
+57.	<b>Qu’est-ce qu’un « autoload » ?</b>
 
     C’est une fonction ( __autoload() ) qui permet d’inclure automatiquement des classes enregistrées dans différents fichiers
 
-58.	Comment appelle-t-on en français les « getters » et les « setters » ?
+58.	<b>Comment appelle-t-on en français les « getters » et les « setters » ?</b>
 
     Accesseurs et mutateurs
 
 59.	Qu’est-ce que la sérialisation en PHP ? 
 
 ## Architecture 
-60.	Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence
+60.	<b>Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence</b>
 
-    Grâce aux requêtes http qui signifie HyperText Transfer Protocol 
+    C'est un environnement dans lequels un client communique avec un serveur
 
-61.	Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern
-62.	Qu’est-ce que l’architecture MVC ?
-63.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
-64.	Quels sont les avantages de l’architecture MVC ?
+    Grâce aux requêtes HTTP qui signifie HyperText Transfer Protocol 
+
+    HTTPS (HyperText Transfer Protocol Secure) est une version plus sécurisée du protocole HTTP
+
+61.	<b>Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern</b>
+
+    C'est une méthodologie qui permet l'optimisation du code dans un projet
+
+    Exemples : Factory, Composite, Iterator ...
+
+
+62.	<b>Qu’est-ce que l’architecture MVC ?</b>
+
+    C'est un design pattern
+
+63.	<b>Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?</b>
+
+    Model : accès à la BDD
+    View : Affichage de la page
+    Controller : logique, calculs et décisions
+
+64.	<b>Quels sont les avantages de l’architecture MVC ?</b>
+
+    Il permet une meilleur organisation du code 
+
 65.	Existe-t-il des variantes à l’architecture MVC ?
+
+    MVP , Model View Presenter
+
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST
 
 ## Modélisation - Base de données
