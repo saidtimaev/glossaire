@@ -22,17 +22,17 @@
 
     Un algorithme est une suite d’opérations qui permet d’arriver à un resultat
 
-3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
+3.	<b>Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?</b>
 
     Une variable est une donnée dans PHP dont la valeur change, son préfixe est le signe $
 
-4.	Qu’est-ce que la portée d’une variable ?
-5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
+4.	<b>Qu’est-ce que la portée d’une variable ?</b>
+5.	<b>Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?</b>
 
     Une constante est une donnée qui ne changera pas
 
-6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
-7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
+6.	<b>Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation </b>
+7.	<b>Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)<b>
 
     int -> 9
     float -> 0.9
@@ -40,11 +40,11 @@
     bool -> true
     null -> n’a pas de valeur
 
-8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+8.	<b>Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?</b>
 
     Oui, des tableaux indexés, tableaux associatifs et tableaux multidimensionnels
 
-9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+9.	<b>Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles</b>
 
     La séquence :
         Début algo
