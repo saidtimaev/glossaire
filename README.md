@@ -322,41 +322,60 @@
 
     Il permet une meilleur organisation du code 
 
-65.	Existe-t-il des variantes à l’architecture MVC ?
+65.	<b>Existe-t-il des variantes à l’architecture MVC ?</b>
 
     MVP , Model View Presenter
 
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST
 
 ## Modélisation - Base de données
-67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
-68.	Quelles sont les 3 étapes principales de la méthode Merise ? 
-a.	Analyse, conception et réalisation
-b.	Planification, exécution et contrôle
-c.	Création, modification et suppression
-69.	Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
-70.	Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
-71.	Donner la définition des mots suivants :
-a.	Entité
-b.	Relation
-c.	Cardinalité
-d.	Clé primaire / clé étrangère
+67.	<b>Qu’est-ce que la modélisation de données ? Définir la méthode Merise</b>
+
+    Le processus de création d'une représentation visuelle ou d'un plan qui définit les systèmes de collecte et de gestion de l'information de toute organisation.
+
+    Merise est une méthode d'analyse, de conception et de gestion de projet informatique.
+
+
+68.	<b>Quelles sont les 3 étapes principales de la méthode Merise ? </b>
+    
+    a.	Analyse, conception et réalisation
+
+69.	<b>Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?</b>
+
+    Le modèle conceptuel de données est une représentation formelle de données
+
+70.	<b>Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?</b>
+
+    Le modèle logique de données est une répresentation textuelle de données
+
+
+71.	<b>Donner la définition des mots suivants :</b>
+    
+    <b>a.	Entité</b>
+    C'est un ensemble d'éléments ou d'objets de même nature
+
+    <b>b.	Relation</b>
+    C'est une association entre les tables d'une BDD qui est créé à l'aide d'une instruction de jointure
+
+    c.	Cardinalité
+
+    d.	Clé primaire / clé étrangère
 72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
 73.	Qu’est-ce qu’une base de données ?
 
     C’est un système électronique qui permet d’accéder, de manipuler ou de mettre à jour des données
 
-74.	Définir les notions suivantes :
+74.	<b>Définir les notions suivantes :</b>
 
-a.	SQL
+<b>a.	SQL</b>
 
     Structured Query Language qui est un langage informatique servant à exploiter des bases de données
 
-b.	MySQL
+<b>b.	MySQL</b>
 
     Un SGBD
 
-c.	SGBD (donner 2 exemples de SGBD)
+<b>c.	SGBD (donner 2 exemples de SGBD)</b>
 
     Système de gestion de base de données (MySQL, Oracle Database)
 
