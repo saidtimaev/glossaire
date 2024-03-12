@@ -395,15 +395,36 @@
 79.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
 80.	Quelles sont les fonctions d’agrégation en SQL ?
 81.	Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?
-82.	Quelles sont les clauses qui permettent de :
-a.	Insérer un nouvel enregistrement dans une table
-b.	Modifier un enregistrement dans une table
-c.	Supprimer un enregistrement dans une table
-d.	Supprimer la base de données
-e.	Filtrer les résultats d’une requête SQL
-f.	Trier les résultats d’une requête SELECT
-g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
-h.	Concaténer 2 chaînes de caractères 
+82.	<b>Quelles sont les clauses qui permettent de :</b>
+    <b>a.	Insérer un nouvel enregistrement dans une table</b>
+
+        INSERT 
+
+    <b>b.	Modifier un enregistrement dans une table</b>
+
+        UPDATE
+
+    <b>c.	Supprimer un enregistrement dans une table</b>
+    
+        DELETE
+
+    <b>d.	Supprimer la base de données</b>
+
+        DROP 
+
+    e.	Filtrer les résultats d’une requête SQL
+    f.	<b>Trier les résultats d’une requête SELECT</b>
+
+        ORDER BY
+
+    g.	<b>Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique</b>
+
+        GROUP BY
+
+    h.	<b>Concaténer 2 chaînes de caractères</b>
+
+        CONCAT 
+
 83.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
 
 ## Symfony
@@ -485,34 +506,34 @@ h.	Concaténer 2 chaînes de caractères
 142.	Qu'est-ce qu'une assertion dans un test unitaire ?
  
 ## English
-1)	What does JavaScript enable you to do on a website ?
+1)	<b>What does JavaScript enable you to do on a website ?</b>
 
     Add interactive behavior and dynamic content
 
-2)	Which programming language is primarily used for server-side web development ?
+2)	<b>Which programming language is primarily used for server-side web development ?</b>
 
     PHP
 
-3)	What is the purpose of a web browser ?
+3)	<b>What is the purpose of a web browser ?</b>
 
     To render and display web pages
 
-4)	What is the difference between GET and POST methods in HTTP ?
+4)	<b>What is the difference between GET and POST methods in HTTP ?</b>
 
     GET and POST methods are interchangeable
     
-5)	What is the purpose of version control systems (e.g., Git) in web development ?
+5)	<b>What is the purpose of version control systems (e.g., Git) in web development ?</b>
 
     To track changes and manage collaborative development
 
-6)	What is the purpose of a framework in web development ?
+6)	<b>What is the purpose of a framework in web development ?</b>
 
     To provide a structured environment for building web applications
 
-7)	What does NoSQL stand for ?
-a.	Not Only SQL
-b.	Non-Structured Query Language
-c.	New Object-Oriented Language
+7)	<b>What does NoSQL stand for ?</b>
+    
+    a.	Not Only SQL
+
 8)	Which of the following is a characteristic of NoSQL databases ?
 a.	Strict schema enforcement
 b.	Support for complex transactions
