@@ -402,7 +402,7 @@
 77.	<b>Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?</b>
 
     C’est l’opération qui permet d’associer plusieurs tables d’une BDD par le biais d’un lien logique entre ces tables.
-    
+
     Il en existe plusieurs : 
     - INNER JOIN
     - LEFT JOIN
@@ -414,9 +414,24 @@
 
     Sert à visualiser le résultat d’une requête 
 
-79.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
-80.	Quelles sont les fonctions d’agrégation en SQL ?
-81.	Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?
+79.	<b>Qu’est-ce que l’intégrité référentielle dans une base de données ?</b>
+
+    C'est un mécanisme qui protège le contenu et les relations d’une base de données
+
+80.	<b>Quelles sont les fonctions d’agrégation en SQL ?</b>
+
+    - AVG()
+    - COUNT()
+    - MAX()
+    - MIN()
+    - SUM()
+
+81.	<b>Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?</b>
+
+    C'est les 4 manieres dont on peut intéragir avec des données en BDD
+
+    Create, Read, Update, Delete
+
 82.	<b>Quelles sont les clauses qui permettent de :</b>
     <b>a.	Insérer un nouvel enregistrement dans une table</b>
 
@@ -434,7 +449,10 @@
 
         DROP 
 
-    e.	Filtrer les résultats d’une requête SQL
+    <b>e.	Filtrer les résultats d’une requête SQL</b>
+
+        WHERE 
+
     f.	<b>Trier les résultats d’une requête SELECT</b>
 
         ORDER BY
@@ -447,7 +465,9 @@
 
         CONCAT 
 
-83.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+83.	<b>Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?</b>
+
+    Grâce à l'extension PHP PDO (PHP Data Objects)
 
 ## Symfony
 84.	Qu’est-ce que Symfony ?
