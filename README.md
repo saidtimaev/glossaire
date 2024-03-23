@@ -158,6 +158,9 @@
     Le responsive design est la manière dont la page web sera présentée selon la taille de la page
 
 28.	Qu’est-ce que le templating ?
+
+    C'est de remplacer des éléments dans un modèle prédéfini
+
 29.	<b>Qu’est-ce qu’une fonction anonyme en Javascript ?</b>
 
     Une fonction qui n’a pas de nom
@@ -264,7 +267,8 @@
 
 53.	<b>Définir le polymorphisme en POO</b>
 
-    Le principe du polymorphisme permet à des classes d'implémenter la même méthode mais avec un comportement différent 
+    Le principe du polymorphisme permet à des classes d'implémenter la même méthode mais avec un comportement différent. Par exemple avec l'utilisation
+    d'un interface en PHP
 
 54.	<b>Définir une méthode / classe abstraite ?</b>
 
@@ -357,11 +361,22 @@
     <b>b.	Relation</b>
     C'est une association entre les tables d'une BDD qui est créé à l'aide d'une instruction de jointure
 
-    c.	Cardinalité
+    <b>c.	Cardinalité</b>
 
-    d.	Clé primaire / clé étrangère
-72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
-73.	Qu’est-ce qu’une base de données ?
+        Elle représente le nombre d'instances minimum et maximum qui sont autorisées à participer à une relation entre deux entités
+
+    <b>d.	Clé primaire / clé étrangère</b>
+
+        Clé primaire -> c'est une ou plusieurs colonnes qui permettent d'identifier de maniere unique un enregistrement
+
+        Clé étrangère -> c'est une ou plusieurs colonnes qui fait référence à la clé primaire d'une autre table, elle permet de créer un lien entre deux tables
+
+
+72.	<b>Que devient une relation de type « Many To Many » dans le modèle logique de données ?</b>
+
+    Elle devient une table associative
+
+73.	<b>Qu’est-ce qu’une base de données ?</b>
 
     C’est un système électronique qui permet d’accéder, de manipuler ou de mettre à jour des données
 
@@ -379,16 +394,23 @@
 
     Système de gestion de base de données (MySQL, Oracle Database)
 
-75.	Dans une base de données, les données sont stockées dans des ___. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___
+75.	<b>Dans une base de données, les données sont stockées dans des ___. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___</b>
 
     Dans une base de données, les données sont stockées dans des TABLES. Celles-ci sont constituées de lignes appelées ENREGISTREMENTS et de colonnes appelées CHAMPS
 
 76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ?
-77.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+77.	<b>Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?</b>
 
-    C’est l’opération qui permet d’associer plusieurs tables d’une BDD par le biais d’un lien logique entre ces tables
+    C’est l’opération qui permet d’associer plusieurs tables d’une BDD par le biais d’un lien logique entre ces tables.
+    
+    Il en existe plusieurs : 
+    - INNER JOIN
+    - LEFT JOIN
+    - RIGHT JOIN
+    - FULL JOIN
 
-78.	A quoi sert une vue dans une base de données ?
+
+78.	<b>A quoi sert une vue dans une base de données ?</b>
 
     Sert à visualiser le résultat d’une requête 
 
