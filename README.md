@@ -145,7 +145,7 @@
 
 24.	<b>Quelle balise HTML permet de créer un lien hypertexte ?</b>
 
-    <a>
+    La balise '<a>'
 
 25.	Qu’est-ce qu’une requête AJAX ?
 26.	<b>Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?</b>
