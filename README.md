@@ -495,7 +495,9 @@
 91.	Que permet le bundle Maker au sein de Symfony ? 
 92.	<b>Quel est le langage de requêtage exploité au sein d’un projet Symfony ?</b>
 
-    DQL
+    DQL 
+    TEST
+    TEST
 
 93.	Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
 
