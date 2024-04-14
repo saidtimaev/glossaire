@@ -155,9 +155,9 @@
 
 27.	<b>Définir le responsive design</b>
 
-    Le responsive design est la manière dont la page web sera présentée selon la taille de la page
+    Le responsive design est la manière dont la page web sera présentée selon la taille de l'écran
 
-28.	Qu’est-ce que le templating ?
+28.	<b>Qu’est-ce que le templating ?</b>
 
     C'est de remplacer des éléments dans un modèle prédéfini
 
@@ -216,7 +216,9 @@
 39.	Qu’est-ce que l’accessibilité en UX Design ? 
 40.	Qu’est-ce qu’une grille de mise en page ?
 41.	Qu’est-ce que la notion d’affordance en UX Design ?
-42.	Qu’est-ce qu’un « mobile first design » ?
+42.	<b>Qu’est-ce qu’un « mobile first design » ?</b>
+
+    C'est un concept qui consiste à réaliser un site en version mobile en premier 
 
 ## IV. Programmation orientée objet (POO)
 
@@ -470,24 +472,57 @@
     Grâce à l'extension PHP PDO (PHP Data Objects)
 
 ## Symfony
-84.	Qu’est-ce que Symfony ?
-85.	Sur quel langage de programmation et design pattern repose Symfony ? 
-86.	Quelle est la dernière version en date de Symfony ?
+84.	<b>Qu’est-ce que Symfony ?</b>
+
+    C'est un framework  open-source
+
+85.	<b>Sur quel langage de programmation et design pattern repose Symfony ? </b>
+
+    PHP et le design pattern MVC
+
+86.	<b>Quelle est la dernière version en date de Symfony ?</b>
+
+    7.0.5
+
 87.	Qu’est-ce qu’un bundle ? 
-88.	Quel est le moteur de template utilisé par défaut dans Symfony ?
+88.	<b>Quel est le moteur de template utilisé par défaut dans Symfony ?</b>
+
+    Twig
+
 89.	Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
 90.	Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
 91.	Que permet le bundle Maker au sein de Symfony ? 
-92.	Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
+92.	<b>Quel est le langage de requêtage exploité au sein d’un projet Symfony ?</b>
+
+    DQL
+
 93.	Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
 
 ## Sécurité
-94.	Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
-95.	Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
+94.	<b>Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?</b>
+
+    C'est injecter dans une requête SQL un morceau de code non prévu initialement à une fin malveillante.
+    Il est possible de s'en prémunir en préparant d'abord une requête avec un marqueur de paramètre nommé puis
+    ensuite en l'exécutant en lui faisant passer la valeur du paramètre nommé
+
+95.	<b>Qu’est-ce que la faille XSS ? Comment s’en prémunir ?</b>
+
+    C'est une faille qui permet d'injecter dans un site web du code malveillant.
+    Pour s'en prémunir il faut filtrer toutes les données recues
+
 96.	Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
-97.	Définir l’attaque par force brute et l’attaque par dictionnaire
+97.<b>	Définir l’attaque par force brute et l’attaque par dictionnaire</b>
+
+    L'attaque par dictionnaire est une tentative de trouver un mot de passe en testant différents mots de passe contenus dans une liste.
+    L'attaque par force brute est une tentative de trouver un mot de passe correspondant à un identifiant en testant chaque combinaison possible
+
+
+
 98.	Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
 99.	A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
+
+    A identifier un utilisateur
+
 100.	Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
 101.	Qu’est-ce qu’une politique de mots de passe forts ?
 102.	Qu’est-ce que l’hameçonnage ?
